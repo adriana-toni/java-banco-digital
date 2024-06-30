@@ -1,8 +1,8 @@
 package models;
 
 public interface IConta {
-    void sacar(double valor);
-    void depositar(double valor);
-    void transferir(Conta contaDestino, double valor);
+    public void sacar(double valor);
+    public void depositar(double valor);
+    public void transferir(Conta contaDestino, double valor);
 
 }
